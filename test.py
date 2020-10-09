@@ -18,6 +18,7 @@ def randomTurple():
         num = random.choice(orderList)
         randomList.append(num)
         orderList.remove(num)
+    return tuple(randomList)
 
 # b)
 def display(state):
