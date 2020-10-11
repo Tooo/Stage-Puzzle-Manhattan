@@ -38,7 +38,7 @@ def star_or_number(num):
         return str(num)
 
 # c)
-# Modified version from textbook's code ()
+# Modified version from textbook's code
 def manhattan(node):
     state = node.state
     index_goal = {0: [2, 3], 1: [0, 1], 2: [0, 2], 3: [1, 0], 4: [1, 1], 5: [1, 2], 6: [1, 3], 7: [2, 0], 8: [2, 1], 9: [2, 2]}
@@ -81,4 +81,6 @@ def time_max(puzzle):
 puzzle = make_rand_StagePuzzle()
 display(puzzle.initial)
 time_default(puzzle)
+time_manhattan(puzzle)
+time_max(puzzle)
 
