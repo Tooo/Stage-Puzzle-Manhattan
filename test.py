@@ -56,6 +56,10 @@ def manhattan(node):
 
     return distance
 
+def max_of_two(node):
+    default = puzzle.h(node)
+    man = manhattan(node)
+    return max(default, man)
 
 def time_default(puzzle):
     print("Default Heuristic")
@@ -74,7 +78,7 @@ def time_manhattan(puzzle):
 def time_max(puzzle):
     print("Max Heuristic")
     start_time = time.time()
-    search.astar_search(puzzle, max(puzzle.h, manhattan), True)
+    search.astar_search(puzzle, max_of_two, True)
     end_time = time.time()
     print("Max time: " + str(end_time-start_time))
 
