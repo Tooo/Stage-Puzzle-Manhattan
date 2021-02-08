@@ -10,7 +10,11 @@ The stage puzzle is randomized in each run and the three heuristic methods to so
 ```bash
 git clone https://github.com/Toooo123/Stage-Puzzle-Manhattan.git
 ```
-2. Download search.py and utils.py from Textbook Code and insert them into the folder </br>
+2. Download 
+[search.py](https://github.com/aimacode/aima-python/blob/master/search.py)
+and 
+[utils.py](https://github.com/aimacode/aima-python/blob/master/utils.py) 
+from the Artificial Intelligence: A Modern Approach code and insert them into the folder </br>
 [Aimacode/aima-python](https://github.com/aimacode/aima-python)
 
 3. Run the program with Python 3
