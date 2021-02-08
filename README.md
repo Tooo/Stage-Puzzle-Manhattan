@@ -14,7 +14,7 @@ git clone https://github.com/Toooo123/Stage-Puzzle-Manhattan.git
 [search.py](https://github.com/aimacode/aima-python/blob/master/search.py)
 and 
 [utils.py](https://github.com/aimacode/aima-python/blob/master/utils.py) 
-from the Artificial Intelligence: A Modern Approach code and insert them into the folder </br>
+from Artificial Intelligence: A Modern Approach and insert them into the folder </br>
 [Aimacode/aima-python](https://github.com/aimacode/aima-python)
 
 3. Run the program with Python 3
