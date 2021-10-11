@@ -8,7 +8,7 @@ The stage puzzle is randomized in each run and the three heuristic methods to so
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/Toooo123/Stage-Puzzle-Manhattan.git
+git clone https://github.com/Tooo/Stage-Puzzle-Manhattan.git
 ```
 2. Download 
 [search.py](https://github.com/aimacode/aima-python/blob/master/search.py)
